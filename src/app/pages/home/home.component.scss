@@ -1,14 +1,19 @@
 .page-title {
   text-align: center;
   font-size: 6rem;
-  font-family: 'BebasNeue';
+  font-family: 'BebasNeue', 'arial', serif;
   color: #D0A568;
+  margin-top: 10%;
 }
 
-.upload-button {
+.upload-container {
   text-align: center;
-}
 
-.text {
-  text-align: center;
+  .upload-button {
+
+  }
+
+  .text {
+
+  }
 }
