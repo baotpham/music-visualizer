@@ -3,14 +3,22 @@
   font-size: 6rem;
   font-family: 'BebasNeue', 'arial', serif;
   color: #D0A568;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .upload-container {
   text-align: center;
+  font-family: 'AvenirNext', 'arial', serif;
+  color: #D0A568;
+  font-size: 1.5rem;
 
   .upload-button {
-
+    font-size: 1.5rem;
+    font-family: 'AvenirNext', 'arial', serif;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(to top right, #D7AB72, #A46E50);
   }
 
   .text {
