@@ -5,5 +5,17 @@ import { Injectable } from '@angular/core';
 })
 export class VisualizerService {
 
+  private musicFile: File;
+
   constructor() { }
+
+  getMusicFile() {
+    return this.musicFile;
+  }
+
+  setMusicFile(musicFile) {
+    this.musicFile = musicFile;
+  }
+
+
 }

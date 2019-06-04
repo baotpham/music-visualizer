@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { VisualizerService } from '../../services/visualizer/visualizer.service';
+
 
 @Component({
   selector: 'app-visualizer',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VisualizerComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private visualizerService: VisualizerService
+  ) { }
+
 
   ngOnInit() {
+    console.log('Visualizer', this.visualizerService.getMusicFile());
   }
 
 }

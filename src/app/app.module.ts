@@ -11,6 +11,7 @@ import { FileDropModule } from 'ngx-file-drop';
 
 // Services
 import { VisualizerService } from './services/visualizer/visualizer.service';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { VisualizerService } from './services/visualizer/visualizer.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FileDropModule
+    FileDropModule,
+    FormsModule
   ],
   providers: [
     VisualizerService

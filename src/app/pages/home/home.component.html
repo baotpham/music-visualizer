@@ -1,6 +1,4 @@
-<file-drop dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)"
-           (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
-</file-drop>
+<file-drop dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)"></file-drop>
 
 
 <h1 class="page-title">
@@ -8,7 +6,7 @@
 </h1>
 
 <div class="upload-container">
-  <input type="file" class="upload-button" />
+  <input type="file" class="upload-button" [(ngModel)]="musicFile"/>
 
   <p class="upload-text">Or drag into this page</p>
 
