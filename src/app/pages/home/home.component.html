@@ -1,11 +1,16 @@
+<file-drop dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)"
+           (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
+</file-drop>
+
+
 <h1 class="page-title">
   Music Visualizer
 </h1>
 
 <div class="upload-container">
-  <button class="upload-button">
-    Upload a song
-  </button>
+  <input type="file" class="upload-button" />
 
-  <p class="text">Or drag into this page</p>
+  <p class="upload-text">Or drag into this page</p>
+
+  <button class="vs-button" (click)="goToVisualizer()">Visualize it!</button>
 </div>

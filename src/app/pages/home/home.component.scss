@@ -8,12 +8,8 @@
 
 .upload-container {
   text-align: center;
-  font-family: 'AvenirNext', 'arial', serif;
-  color: #D0A568;
-  font-size: 1.5rem;
 
   .upload-button {
-    font-size: 1.5rem;
     font-family: 'AvenirNext', 'arial', serif;
     padding: 10px 15px;
     border-radius: 8px;
@@ -21,7 +17,19 @@
     background: linear-gradient(to top right, #D7AB72, #A46E50);
   }
 
-  .text {
+  .upload-text {
+    color: #D0A568;
+    font-size: 1.5rem;
+    font-family: 'AvenirNext', 'arial', serif;
+  }
 
+  .vs-button {
+    margin-top: 20px;
+    box-shadow: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: white;
+    background: linear-gradient(to top right, #D7AB72, #A46E50);
   }
 }
