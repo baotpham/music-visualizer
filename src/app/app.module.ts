@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { VisualizerComponent } from './pages/visualizer/visualizer.component';
 
+import { MatSliderModule } from '@angular/material';
+
 // Plugins
 import { FileDropModule } from 'ngx-file-drop';
 
@@ -23,7 +25,9 @@ import {FormsModule} from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FileDropModule,
-    FormsModule
+    FormsModule,
+
+    MatSliderModule
   ],
   providers: [
     VisualizerService
